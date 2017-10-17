@@ -7,7 +7,7 @@ It also has the unique **.bib** file that I will keep using and updating here.
 
 I should check that the class (**.cls**) and bibliographic-style (**.bst**) files required by journals are up to date.
 
-The `texmf/` directory and the following tree where not created by installing TexLive: Instead, I had to manually create (`mkdir`) the tree and copy/download the files myself.
+The `texmf/` directory and the following tree were manually created (and did not came to life just by installing TexLive). That is, I had to build the tree below (using `mkdir`) and copy/download the files myself from the command-line interface (CLI).
 
 ## Tree:
 ```
