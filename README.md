@@ -28,3 +28,18 @@ texmf
 - [ ] Test on other machines
 - [ ] Test multiple **.bst** files
 - [ ] Test multiple **.cls** files
+
+## Notes
+
+The directory tree of a LaTeX article should be like below, and authors should open the manuscript where it is (i.e., `cd` to where **manuscript.tex** is).
+Do not have a subdirectory for the manuscript!
+This is because when compiling, `epstopdf` only has the right to write in subfolders (e.g., cannot write in `../figures`) and will only be able to convert **.eps** to **.pdf** if the current working directory is parent to the `figures/` directory.
+```
+.
+├── figures
+│   ├── ... (pdf converted files)
+│   ├── figure_1_for_example-eps-converted-to.pdf
+│   └── figure_1_for_example.eps
+├── ... (auxiliary files, .pdf, .aux, .log, .etc)
+└── manuscript.tex
+```
