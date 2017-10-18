@@ -43,3 +43,21 @@ This is because when compiling, `epstopdf` only has the right to write in subfol
 ├── ... (auxiliary files, .pdf, .aux, .log, .etc)
 └── manuscript.tex
 ```
+
+## Cheat Sheet for my vim/skim setup for LaTeX
+
+If all is installed correctly:
+- gvim for editor
+- skim for viewer
+- vimtex plugin for LaTeX stuff
+
+I should be able to do the following:
+
+### Backward search 
+
+In skim, press `CTRL-SHIFT-click` and gvim should point to the corresponding point in the **.tex**.
+
+### Forward search 
+
+In gvim, when in normal mode (not in insert mode) press `,r` and skim should point to the corresponding point in the **.pdf**.
+
