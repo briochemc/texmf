@@ -55,7 +55,7 @@ I should be able to do the following:
 
 ### Backward search 
 
-In skim, press `CTRL-SHIFT-click` and gvim should point to the corresponding point in the **.tex**.
+In skim, press `CMD-SHIFT-click` and gvim should point to the corresponding point in the **.tex**.
 
 ### Forward search 
 
