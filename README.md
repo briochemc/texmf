@@ -23,6 +23,8 @@ texmf
             └── agujournal.cls
 ```
 
+The texmf directory should be located in `~/Library`
+
 ## To Do
 
 - [ ] Test on other machines
