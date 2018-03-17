@@ -1001,7 +1001,7 @@ sys-tem-at-i-cal-ly
 \newif\ifupperappend
 
 \def\appendix{
-\def\@currentlabel{\Alph{section}:}
+\def\@currentlabel{\Alph{section}}
 \@addtoreset{equation}{section}
 \@addtoreset{table}{section}
 \@addtoreset{figure}{section}
