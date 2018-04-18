@@ -1013,7 +1013,7 @@ sys-tem-at-i-cal-ly
 \global\appendontrue\goodbreak
 \global\c@section=0
 \global\c@equation=0
-\def\thesection{\Alph{section}: }
+\def\thesection{\Alph{section}}
 \def\thesubsection{\Alph{section}.\@arabic{\c@subsection}}
 \def\thesubsubsection{\thesubsection.\@arabic{\c@subsubsection}}
 \def\thesubsubsubsection{\thesubsubsection.\@arabic{\c@subsubsection}}
