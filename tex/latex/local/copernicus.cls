@@ -5,13 +5,13 @@
 %% The original source files were:
 %%
 %% copernicus.dtx  (with options: `class')
-%% 
+%%
 %% -----------------------------------------------------------------
 %% Author:     copernicus.org and le-tex publishing services
-%% 
+%%
 %% This file is part of the copernicus package for papers
 %% published by Copernicus Publications (Copernicus GmbH).
-%% 
+%%
 %%       Copyright (C) 2018 by Copernicus Publications
 %% -----------------------------------------------------------------
 \NeedsTeXFormat{LaTeX2e}[1995/12/01]
@@ -30,7 +30,7 @@
  {\CopernicusWarningNoLine{No section #1; proceeding without it}}
 \newcommand\NoSectionError[2]
  {\CopernicusError{You forgot the section: #1}{Add #2 to your document!}}
-\RequirePackage{fixltx2e}[2006/03/24]
+%\RequirePackage{fixltx2e}[2006/03/24]
 \renewcommand*\and{\@centercr}
 \AtEndOfClass{%
   \DeclareRobustCommand*{\vec}[1]
