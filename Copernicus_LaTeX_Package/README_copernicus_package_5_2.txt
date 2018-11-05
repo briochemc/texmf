@@ -1,7 +1,7 @@
-File: README_copernicus_package_5_0.txt
+File: README_copernicus_package_5_2.txt
 -------------------------------------------------------------------------
 This is a README file for the Copernicus Publications LaTeX Macro Package 
-copernicus_package.zip in the version 5.0, 3 July 2018
+copernicus_package.zip in the version 5.2, 11 October 2018
 -------------------------------------------------------------------------
 It consists of several files, each with its separate copyright.
 This specific archive is collected for journals published by 
@@ -15,7 +15,7 @@ URL:   	https://publications.copernicus.org
 
 
 Content:
-- copernicus.cls: The LaTeX2e class file designed for Copernicus Publications journals. Current Version 8.67, 30 January 2018
+- copernicus.cls: The LaTeX2e class file designed for Copernicus Publications journals. Current Version 8.82, 8 October 2018
 - copernicus.cfg: The configuration file containing journal-specific information used by the class file. Last update 3 July 2018
 - copernicus.bst: The bibliographic style file for BibTeX. Current Version 1.2, September 2017 
 - natbib.sty
