@@ -58,6 +58,7 @@ I should be able to do the following:
 ### Backward search 
 
 In skim, press `CMD-SHIFT-click` and gvim should point to the corresponding point in the **.tex**.
+(You need to set up the "sync" settings in Skim properly for that — Instructions for the setting are in the vimtex help, accessible from vim via `:h vimtex`)
 
 ### Forward search 
 
